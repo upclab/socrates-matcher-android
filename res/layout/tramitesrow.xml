@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/loTramitesRow" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtNroSolicitudTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tramites_nro_solicitud" android:layout_weight="0.4" />
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtNroSolicitud" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.6" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtFechaTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tramites_fecha" android:layout_weight="0.4" />
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtFecha" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.6" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtEstadoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tramites_estado" android:layout_weight="0.4" />
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtEstado" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.6" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtTipoTramiteTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/tramites_tipo_tramite" android:layout_weight="0.4" />
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtTipoTramite" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.6" />
+    </LinearLayout>
+</LinearLayout>

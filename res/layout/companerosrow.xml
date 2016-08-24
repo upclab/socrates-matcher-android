@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/companeroRow" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/imgViewCompaneroFoto" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp" android:scaleType="7" android:layout_weight="0.25" android:contentDescription="@string/content_description_classmates_picture" />
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="5dp" android:layout_marginTop="15dp" android:layout_marginRight="5dp" android:layout_marginBottom="15dp" android:layout_weight="0.75">
+        <TextView android:textSize="12sp" android:textColor="#535353" android:id="@id/txtViewCompaneroName" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="12sp" android:textColor="#535353" android:id="@id/txtViewCompaneroEmail" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="12sp" android:textColor="#535353" android:id="@id/txtViewCompaneroCareer" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

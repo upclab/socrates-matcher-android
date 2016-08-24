@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@id/app" android:background="@drawable/background" android:layout_width="1dp" android:layout_height="1dp"
+    <RelativeLayout android:orientation="0" android:id="@id/tabBar" android:background="@drawable/titlegradient" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/BtnSlide" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/menu" android:layout_centerVertical="true" android:contentDescription="@string/content_description_menu" />
+        <TextView android:textSize="25sp" android:textStyle="1" android:textColor="#ffffff" android:id="@id/txtViewTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:id="@id/layoutFormula" android:background="0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/tabBar">
+        <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txt_titulo_formula" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="20dp" android:layout_marginRight="8dp" android:text="@string/detalle_nota_formula" />
+        <TextView android:textSize="14sp" android:textColor="#535353" android:id="@id/txt_formula" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_marginBottom="5dp" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/layout_1" android:background="0x106000b" android:layout_width="-1" android:layout_height="40dp" android:baselineAligned="false" android:layout_below="@id/layoutFormula">
+        <RelativeLayout android:id="@id/layout_1_1" android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.6">
+            <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txtViewTipo" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:text="@string/detalle_nota_tipo" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_1_2" android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.2">
+            <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txtViewPeso" android:layout_width="-2" android:layout_height="-2" android:text="@string/detalle_nota_peso" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_1_3" android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.2">
+            <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txtViewNota" android:layout_width="-2" android:layout_height="-2" android:text="@string/detalle_nota_nota" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView android:id="@id/lista_detalle_notas" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="40dp" android:cacheColorHint="#00000000" android:divider="0x106000b" android:layout_below="@id/layout_1" />
+    <LinearLayout android:orientation="0" android:id="@id/layout_2" android:background="#ffe698" android:layout_width="-1" android:layout_height="40dp" android:baselineAligned="false" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/layout_2_1" android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.6">
+            <TextView android:textSize="14sp" android:textColor="#535353" android:id="@id/txt_tipo_footer" android:layout_width="-2" android:layout_height="-2" android:text="@string/detalle_nota_nota_actual" android:singleLine="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_2_2" android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.2">
+            <TextView android:textSize="14sp" android:textColor="#535353" android:id="@id/txt_porcentaje_footer" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_2_3" android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.2">
+            <TextView android:textSize="14sp" android:textColor="#535353" android:id="@id/txt_nota_footer" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

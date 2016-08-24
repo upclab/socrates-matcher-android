@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/loInasistenciaRow" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false"
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="0.25">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtCodigoInasistencia" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="0.5">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtNombreInasistencia" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="5" android:orientation="1" android:paddingRight="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="0.15">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtTotalInasistencia" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="5" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:layout_weight="0.1">
+        <TextView android:textSize="16sp" android:textColor="#535353" android:id="@id/txtMaxInasistencia" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

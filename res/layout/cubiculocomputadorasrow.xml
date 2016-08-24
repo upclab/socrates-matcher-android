@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/viewOption" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:id="@id/cubiculosComputadorasRow" android:paddingLeft="20dp" android:paddingTop="25dp" android:paddingRight="20dp" android:paddingBottom="25dp" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="15sp" android:textColor="#535353" android:id="@id/txtViewCubiculosComputadorasOpcionTitle" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.5" />
+        <TextView android:textSize="14sp" android:textColor="#535353" android:gravity="5" android:id="@id/txtViewCubiculosComputadorasOpcionSelection" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.5" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/viewButton" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40dp" android:layout_marginBottom="40dp">
+        <ImageButton android:id="@id/imageButton1" android:background="@mutabledatetime/ROUND_NONE" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/consultarbutton" android:layout_centerInParent="true" android:onClick="onClickConsultarButton" android:contentDescription="@string/content_description_consultar_button" />
+    </RelativeLayout>
+</LinearLayout>

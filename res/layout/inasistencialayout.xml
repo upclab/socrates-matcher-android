@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/app" android:layout_width="1dp" android:layout_height="1dp">
+    <RelativeLayout android:orientation="0" android:id="@id/tabBar" android:background="@drawable/titlegradient" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/BtnSlide" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/menu" android:layout_centerVertical="true" android:contentDescription="@string/content_description_menu" />
+        <TextView android:textSize="25sp" android:textStyle="1" android:textColor="#ffffff" android:id="@id/txtViewTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:background="@drawable/background" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="14sp" android:textColor="#848484" android:gravity="1" android:id="@id/txtMensajeInasistencia" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" />
+        <LinearLayout android:orientation="0" android:id="@id/loTitleInasistencia" android:background="0x106000b" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+            <RelativeLayout android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.65">
+                <TextView android:textSize="15sp" android:textColor="#ff0000" android:id="@id/txtCodigoInasistencia" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="@string/inasistencia_curso" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.2">
+                <TextView android:textSize="15sp" android:textColor="#ff0000" android:id="@id/txtMaxInasistencia" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:text="@string/inasistencia_total" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0px" android:layout_height="-1" android:layout_weight="0.15">
+                <TextView android:textSize="15sp" android:textColor="#ff0000" android:id="@id/txtTotalInasistencia" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6dp" android:text="@string/inasistencia_max" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ListView android:id="@id/lsInasistencia" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-1" android:divider="0x106000b" />
+    </LinearLayout>
+</LinearLayout>

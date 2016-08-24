@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/app" android:background="@drawable/background" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:orientation="0" android:id="@id/tabBar" android:background="@drawable/titlegradient" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/BtnSlide" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/menu" android:layout_centerVertical="true" android:contentDescription="@string/content_description_menu" />
+        <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@id/txtViewTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <RelativeLayout android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2">
+                    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/logo" android:layout_centerInParent="true" android:contentDescription="@string/content_description_logo" />
+                </RelativeLayout>
+                <TextView android:textColor="#535353" android:gravity="11" android:id="@id/txtInstructions" android:paddingTop="15dp" android:paddingBottom="30dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/intranet_instrucciones" />
+                <EditText android:id="@id/edtTextUsuario" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:hint="@string/intranet_usuario" android:singleLine="true" />
+                <EditText android:id="@id/edtTextPassword" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:hint="@string/intranet_contrasena" android:singleLine="true" android:inputType="81" />
+                <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+                    <CheckBox android:id="@id/ckbRecordarContrasena" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+                    <TextView android:textColor="#535353" android:id="@id/txtRemember" android:layout_width="-2" android:layout_height="-2" android:text="@string/intranet_recordarcontrasena" android:layout_alignBaseline="@id/ckbRecordarContrasena" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="60dp">
+                    <ImageButton android:id="@id/imageButton1" android:background="@mutabledatetime/ROUND_NONE" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/entrarbutton" android:layout_centerInParent="true" android:onClick="onClickEntrarButton" android:contentDescription="@string/content_description_ingresar_button" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.adsdk.sdk.banner.AdView android:id="@id/mobFoxView" android:layout_width="300dp" android:layout_height="50dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" animation="true" location="true" publisherId="5e5008eb14146264715417ed1cc3c875" request_url="http://svrdinsbolsa01.upc.edu.pe/md.request.php" />
+    </RelativeLayout>
+</LinearLayout>

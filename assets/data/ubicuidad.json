@@ -1,0 +1,142 @@
+[
+    {
+        "place": "Monterrico",
+        "lat": -12.1041621,
+		"lon": -76.9630458,
+        "info": [
+            {
+                "name": "Pabellón A",
+                "lat": -12.104563075553937,
+                "lon": -76.96299970149994,
+                "places": [
+                    "Aula Magna",
+                    "Sala de Conferencias",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón B",
+                "lat": -12.103975618281272,
+                "lon": -76.96328938007355,
+                "places": [
+                    "Caja",
+                    "Facturación y Cobranzas",
+                    "Tutorías"
+                ]
+            },
+            {
+                "name": "Pabellón C",
+                "lat": -12.104195914909894,
+                "lon": -76.96356296539307,
+                "places": [
+                    "Tesorería",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón D",
+                "lat": "-12.104342779228077",
+                "lon": -76.96369707584381,
+                "places": [
+                    "Comunicaciones",
+                    "Sala de Cómputo",
+                    "Sala MAC",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón E",
+                "lat": -12.104395230750702,
+                "lon": -76.96265637874603,
+                "places": [
+                    "Crédito Educativo",
+                    "Aulas de Tutoría",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón F",
+                "lat": -12.104174934286425,
+                "lon": -76.96238279342651,
+                "places": [
+                    "Sala Bloomberg",
+                    "Sala de Cómputo",
+                    "Aulas de Arquitectura",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón G",
+                "lat": -12.103912676354032,
+                "lon": -76.96244716644287,
+                "places": [
+                    "Administración en Hotelería y Turismo",
+                    "Restaurant K'ATA",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón H",
+                "lat": -12.103660908496723,
+                "lon": -76.96244716644287,
+                "places": [
+                    "Auditorio Ernesto Bancalari Rodríguez",
+                    "Aulas ABP",
+                    "Hall Auditorio",
+                    "Aulas"
+                ]
+            },
+            {
+                "name": "Pabellón I",
+                "lat": -12.104778126553976,
+                "lon": -76.96325719356537,
+                "places": [
+                    "Centro de Información",
+                    "Hall",
+                    "Sala de Cómputo",
+                    "Sala de Lectura - Hemeroteca",
+                    "Cubículos",
+                    "Librería Libum",
+                    "Centro de Servicio"
+                ]
+            },
+            {
+                "name": "Pabellón J",
+                "lat": -12.104049050511003,
+                "lon": -76.9634610414505,
+                "places": [
+                    "Impresiones y Fotocopias",
+                    "Interbank",
+                    "Tesorería"
+                ]
+            },
+            {
+                "name": "Pabellón K",
+                "lat": -12.1045945464428,
+                "lon": -76.96352541446686,
+                "places": [
+                    "Starbucks",
+                    "Cafetería El Café"
+                ]
+            },
+            {
+                "name": "Pabellón L",
+                "lat": -12.103482572787595,
+                "lon": -76.96280658245087,
+                "places": [
+                    "Adminsión",
+                    "Calidad Educativa",
+                    "Centro de Atención al Alumno (CAA)",
+                    "Club de Cátedra",
+                    "Grados y Títulos",
+                    "Informes al Postulante",
+                    "Registros Académicos",
+                    "Oportunidades Laborales",
+                    "Oficina Internacional",
+                    "Vida Universitaria",
+                    "Cafetería Catering Coté"
+                ]
+            }
+        ]
+    }
+]

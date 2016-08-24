@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/loPagosRow" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+        <TextView android:textSize="20dp" android:textStyle="1" android:textColor="#535353" android:gravity="1" android:id="@id/txtNroCuota" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtDocumentoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_nro_documento" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtDocumento" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtFechaEmisionTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_fecha_emision" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtFechaEmision" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtFechaVencimientoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_fecha_vencim" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtFechaVencimiento" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtMonedaTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_moneda" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtMoneda" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtImporteTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_importe" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtImporte" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtDescuentoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_descuento" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtDescuento" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtImpuestoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_impuesto" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtImpuesto" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtImporteCanceladoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_importe_cancelado" android:layout_weight="0.58" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtImporteCancelado" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.42" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtMoraTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_mora" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtMora" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtSaldoTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_saldo" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtSaldo" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="17dp">
+            <TextView android:textSize="16dp" android:textStyle="1" android:textColor="#535353" android:id="@id/txtTotalTitle" android:layout_width="0dp" android:layout_height="-2" android:text="@string/pagos_total" android:layout_weight="0.55" />
+            <TextView android:textSize="16dp" android:textColor="#535353" android:gravity="5" android:id="@id/txtTotal" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="17dp" android:layout_weight="0.45" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

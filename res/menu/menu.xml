@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@id/showRadar" android:title="Hide Radar" />
+    <item android:id="@id/showZoomBar" android:title="Hide Zoom Bar" />
+    <item android:id="@id/exit" android:title="Exit" />
+</menu>

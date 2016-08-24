@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/app" android:layout_width="1dp" android:layout_height="1dp">
+    <RelativeLayout android:orientation="0" android:id="@id/tabBar" android:background="@drawable/titlegradient" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/BtnSlide" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/menu" android:layout_centerVertical="true" android:contentDescription="@string/content_description_menu" />
+        <TextView android:textSize="25sp" android:textStyle="1" android:textColor="#ffffff" android:id="@id/txtViewTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:background="@drawable/background" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="15sp" android:textColor="#535353" android:id="@id/txtViewReservarTitle" android:background="#ffffff" android:padding="15dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/reservar_espacio_deportivo_titulo" />
+        <LinearLayout android:orientation="1" android:background="#ededed" android:paddingLeft="25dp" android:paddingTop="15dp" android:paddingRight="25dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textColor="#535353" android:id="@id/txtViewReservarFecha" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:text="@string/reservar_espacio_deportivo_fecha" android:layout_weight="0.5" />
+                <TextView android:textColor="#535353" android:id="@id/txtViewReservarFechaSelected" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.5" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textColor="#535353" android:id="@id/txtViewReservarRecurso" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:text="@string/reservar_cubiculo_computadora_recurso" android:layout_weight="0.5" />
+                <TextView android:textColor="#535353" android:id="@id/txtViewReservarRecursoSelected" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.5" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textColor="#535353" android:id="@id/txtViewReservarHora" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:text="@string/reservar_espacio_deportivo_hora" android:layout_weight="0.5" />
+                <TextView android:textColor="#535353" android:id="@id/txtViewReservarHoraSelected" android:padding="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/viewButton" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40dp" android:layout_marginBottom="40dp">
+            <ImageButton android:id="@id/btnReservar" android:background="@mutabledatetime/ROUND_NONE" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/reservarbutton" android:layout_centerInParent="true" android:onClick="onClickReservarButton" android:contentDescription="@string/content_description_reservar_button" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

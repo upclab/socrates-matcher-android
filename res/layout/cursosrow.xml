@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/cursoRow" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="15sp" android:textColor="#535353" android:gravity="10" android:layout_gravity="10" android:id="@id/txt_row_curso" android:padding="20dp" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+</LinearLayout>

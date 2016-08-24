@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="8" android:versionName="1.7" package="pe.edu.upc.mobile">
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="pe.edu.upc.mobile.UPCMovil.UPCMovilApplication">
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.IntranetActivity" android:exported="false" android:launchMode="singleInstance" android:screenOrientation="portrait" android:windowSoftInputMode="20">
+            <intent-filter>
+                <action android:name="android.intent.action." />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme_SplashScreenTheme" android:name="pe.edu.upc.mobile.UPCMovil.SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.EventosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.NoticiasActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:theme="@style/StyledIndicators" android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.HorarioActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.InasistenciaActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.NotasActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.PagosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.TramitesActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.DetalleNotaActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:theme="@style/StyledIndicators" android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.CampusActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.DetalleCampusActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="pe.edu.upc.mobile.UPCMovil.ARActivity" android:screenOrientation="landscape" />
+        <activity android:label="@string/app_name" android:name="com.adsdk.sdk.banner.InAppWebView" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.CompanerosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.EspaciosDeportivosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.DisponibilidadEspaciosDeportivosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.ReservarEspaciosDeportivosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.CubiculosComputadorasActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.DisponibilidadCubiculosComputadorasActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.ReservarCubiculosComputadorasActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="pe.edu.upc.mobile.UPCMovil.CursosActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" />
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDQlHtiKjgPxaaObusAdDdMCADOanUIatM" />
+        <service android:name="com.google.analytics.tracking.android.CampaignTrackingService" />
+        <receiver android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

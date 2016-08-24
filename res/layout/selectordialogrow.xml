@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/selectorDialogRow" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="15sp" android:textColor="#535353" android:id="@id/txtViewSedeName" android:layout_width="600dp" android:layout_height="-1" android:layout_margin="15dp" />
+</LinearLayout>

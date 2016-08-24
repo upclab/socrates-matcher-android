@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/app" android:background="@drawable/background" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:orientation="0" android:id="@id/tabBar" android:background="@drawable/titlegradient" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/BtnSlide" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/back" android:layout_centerVertical="true" android:contentDescription="@string/content_description_menu" />
+        <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@id/txtViewTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60dp" android:layout_marginRight="60dp" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@id/imgViewPin" android:layout_width="-2" android:layout_height="-2" android:layout_margin="20dp" android:src="@drawable/pin_a" android:layout_alignParentLeft="true" android:contentDescription="@string/content_description_pin" />
+            <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txtDetailPlaceName" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="@id/imgViewPin" android:layout_alignTop="@id/imgViewPin" />
+            <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txtPlaceName" android:paddingTop="5dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="@id/imgViewPin" android:layout_below="@id/txtDetailPlaceName" />
+        </RelativeLayout>
+        <TextView android:textSize="14sp" android:textColor="#535353" android:id="@id/txtPlaceDescription" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

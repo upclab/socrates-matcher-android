@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pe.edu.upc.mobile.Utilities.MyHorizontalScrollView android:background="#00ffffff" android:padding="0px" android:scrollbars="0" android:fadingEdge="0" android:fadingEdgeLength="0px" android:layout_width="-1" android:layout_height="-1" android:layout_margin="0px">
+    <LinearLayout android:orientation="0" android:id="@id/top" android:background="#ffffffff" android:padding="0px" android:layout_width="-1" android:layout_height="-1" android:layout_margin="0px" />
+</pe.edu.upc.mobile.Utilities.MyHorizontalScrollView>

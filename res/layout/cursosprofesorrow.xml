@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/disponibilidadRow" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="14sp" android:textColor="#ff0000" android:id="@id/txtViewModalidadTitle" android:background="0x106000b" android:paddingLeft="15dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="0" android:id="@id/cursoLayout" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="15sp" android:textColor="#535353" android:gravity="11" android:id="@id/txtViewCursoProfesorNombre" android:paddingLeft="10dp" android:paddingTop="20dp" android:paddingRight="10dp" android:paddingBottom="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.66" />
+        <TextView android:textSize="15sp" android:textColor="#535353" android:gravity="10" android:id="@id/txtViewCursoProfesorSeccionGrupo" android:paddingLeft="30dp" android:paddingTop="20dp" android:paddingRight="30dp" android:paddingBottom="20dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0.55" />
+    </LinearLayout>
+</LinearLayout>
